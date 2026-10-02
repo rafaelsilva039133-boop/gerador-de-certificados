@@ -1,0 +1,19 @@
+@use "../../../styles/varables.scss" as *;
+
+.navbar{
+  background-color: $white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid $gray-100;
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.active {
+  color: $blue-base;
+}
+
+.nav-link.active {
+  color: $blue-base;
+}
