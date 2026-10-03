@@ -3,9 +3,11 @@ import { Navbar } from './components/navbar/navbar';
 import { PrimaryButton } from './primary-button/primary-button';
 import { SecondaryButton } from './secondary-button/secondary-button';
 import { ItemCertificado } from './item-certificado/item-certificado';
+import { UiBase } from './components/ui-base/ui-base';
+import { Certificados } from './pages/certificados/certificados';
 
 @Component({
-  imports: [Navbar, PrimaryButton, SecondaryButton, ItemCertificado],
+  imports: [Navbar, PrimaryButton, SecondaryButton, ItemCertificado, UiBase, Certificados],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
