@@ -1,0 +1,15 @@
+@use "../../styles/varables.scss" as *;
+
+.title {
+  color: $blue-dark;
+}
+
+.text {
+  color: $gray-200;
+}
+
+.custom-card {
+  border: 1px solid $gray-100;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
