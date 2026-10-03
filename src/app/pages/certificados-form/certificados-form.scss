@@ -69,3 +69,12 @@ label {
   border-radius: 6px;
   padding: 8px 12px;
 }
+
+.custom-input:focus {
+  border: 1px solid $blue-base;
+  box-shadow: none;
+}
+
+.custom-input-grup:has(input:focus) label {
+  color: $blue-base;
+}
