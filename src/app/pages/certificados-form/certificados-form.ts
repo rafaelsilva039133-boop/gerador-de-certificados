@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { SecondaryButton } from '../../secondary-button/secondary-button';
-import { PrimaryButton } from '../../primary-button/primary-button';
+import { SecondaryButton } from '../../components/secondary-button/secondary-button';
+import { PrimaryButton } from '../../components/primary-button/primary-button';
 
 @Component({
   imports: [SecondaryButton, PrimaryButton],
