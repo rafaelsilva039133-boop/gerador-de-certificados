@@ -78,3 +78,21 @@ label {
 .custom-input-grup:has(input:focus) label {
   color: $blue-base;
 }
+
+.error-message {
+  gap: 4px;
+  color: $danger-dark;
+  margin-top: 8px;
+}
+
+.error-message p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+.custom-input-grup:has(.error-message)>label {
+  color: $danger-dark;
+}
