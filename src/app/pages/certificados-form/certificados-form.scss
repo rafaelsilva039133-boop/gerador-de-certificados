@@ -1,0 +1,31 @@
+@use "../../../styles/typography.scss";
+@use "../../../styles/varables.scss" as *;
+
+.custom-card {
+  max-width: 672px;
+  gap: 32px;
+  border-radius: 8px;
+  border: 1px solid $gray-100;
+  padding: 32px;
+}
+
+.card-title {
+  font-weight: $font-size-xl;
+  font-size: $font-size-lg;
+  line-height: $line-height-sm;
+  letter-spacing: 0;
+  color: $blue-dark;
+  margin-bottom: 20px;
+}
+
+.atividade-grup {
+  margin-bottom: 32px;
+}
+
+label {
+  font-weight: $font-weight-medium;
+  font-size: $font-size-sm;
+  line-height: $line-height-sm;
+  letter-spacing: 0;
+  color: $blue-dark;
+}

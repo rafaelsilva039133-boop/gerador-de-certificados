@@ -1,27 +1,5 @@
 @use "../../../styles/varables.scss" as *;
-
-.custom-title {
-  font-weight: $font-weight-bold;
-  font-size: $font-size-xl;
-  line-height: $line-height-xl;
-  letter-spacing: 0;
-  text-align: center;
-}
-
-.custom-subtitle {
-  font-weight: $font-weight-regular;
-  font-size: $font-size-sm;
-  line-height: $line-height-sm;
-  letter-spacing: 0;
-  text-align: center;
-  color: $gray-200;
-}
-
-.content-titles {
-  height: 60px;
-  gap: 4px;
-  margin-bottom: 32px;
-}
+@use "../../../styles/typography.scss";
 
 .custom-card {
   max-width: 672px;
@@ -43,6 +21,10 @@
   gap: 2px;
 }
 
+.list-certificates {
+  max-width: 672px;
+}
+
 .card-title {
   font-weight: $font-weight-bold;
   font-size: $font-size-sm;
@@ -59,9 +41,4 @@
   letter-spacing: 0;
   text-align: center;
   color: $gray-300;
-}
-
-
-.list-certificates {
-  max-width: 672px;
 }
