@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { Navbar } from './components/navbar/navbar';
 import { UiBase } from './components/ui-base/ui-base';
-import { CertificadosForm } from './pages/certificados-form/certificados-form';
+import { Certificado } from './pages/certificado/certificado';
 
 @Component({
-  imports: [Navbar, CertificadosForm, UiBase, CertificadosForm],
+  imports: [Navbar, UiBase, Certificado],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
