@@ -75,6 +75,10 @@ label {
   box-shadow: none;
 }
 
+.custom-input-grup {
+  margin-bottom: 20px !important;
+}
+
 .custom-input-grup:has(input:focus) label {
   color: $blue-base;
 }

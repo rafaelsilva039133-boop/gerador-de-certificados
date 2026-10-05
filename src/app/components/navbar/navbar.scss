@@ -4,6 +4,8 @@
   background-color: $white;
   padding: 1rem 2rem;
   border-bottom: 1px solid $gray-100;
+  padding-right: 28px;
+  padding-left: 12px;
 }
 
 .navbar-logo img {
@@ -16,4 +18,18 @@
 
 .nav-link.active {
   color: $blue-base;
+}
+
+.nav-link {
+  font-weight: $font-weight-semibold;
+  padding: 6px !important;
+}
+
+.nav-item {
+  cursor: pointer;
+  margin-left: 18px !important;
+}
+
+.nav-item i {
+  font-size: 20px;
 }
